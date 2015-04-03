@@ -2,7 +2,7 @@
     document.addEventListener('readystatechange', function () {
         if (document.readyState === 'complete') {
             insertStyle();
-            hello();
+            doInject();
         }
     })
 
@@ -21,13 +21,18 @@ function getBaseCss() {
 }
 
 
-function hello() {
-    var parentBot = document.createElement('div');
-    parentBot.id = "inject-Bot";
-    parentBot.innerHTML = indexTpl();
-    document.body.appendChild(parentBot);
+function doInject() {
+    getAdress();
+    //console.log('hello');
+    //var str = indexTpl();
+    //document.body.appendChild(str);
 }
 
 function indexTpl() {
     return '<div id="hello" class="hello">Hello</div>';
+}
+
+function getAdress(){
+    var aTags = document.getElementsByTagName('a');
+    console.log(aTags);
 }

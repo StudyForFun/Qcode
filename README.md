@@ -1,5 +1,5 @@
-# 购物专项JS注入部分
-> gw-inject
+# chrome 二维码嗅探插件
+> Qcode
 
 
 ### 运行环境配置:
@@ -12,7 +12,7 @@
 1. clone你的项目（以下为示例）
 
     ```shell
-    git clone git@git.ucweb.local:gouwu/gw_inject.git
+    git clone git@github.com:StudyForFun/Qcode.git
     ```
 
 ### 启动项目
@@ -29,45 +29,24 @@
 ```
 project (develop)
 │  .gitignore
-│  Gruntfile.js
-│  package.json
-│  README.md
-│
-├─plugin
-│  │  background.js
-│  │  manifest.json
-│  │  popup.html
-│  │  README.md
-│  │  tianmao.png
-│  │
-│  └─src
-│          detailInject.dev.js
-│          detailInject_test.dev.js
-│          inject.dev.js
-│          inject.inline.js
-│          injectIOS.dev.js
-│          injectIOS.inline.js
-│          payInject.dev.js
-│
-├─publish
-│      detailInject-1415858705516.js
-│      inject-1415858705516.js
-│      injectIOS-1415858705516.js
-│      payInject-1415858705516.js
-│
-└─src
-        base.css
-        bottomTpl.tpl
-        bottomTplIOS.tpl
-        detail.css
-        detailInject.js
-        detailInject_test.js
-        inject.js
-        injectIOS.js
-        pay.css
-        payInject.js
-        topTpl.tpl
-        topTplIOS.tpl
+├── Gruntfile.js
+├── README.md
+├── dest
+│   ├── index.min.css
+│   └── index.min.tpl
+├── package.json
+├── plugin
+│   ├── README.md
+│   ├── background.js
+│   ├── manifest.json
+│   ├── popup.html
+│   ├── src
+│   │   └── index.dev.js
+│   └── tianmao.png
+└── src
+    ├── index.css
+    ├── index.js
+    └── index.tpl
 
 ```
 
