@@ -2,6 +2,7 @@
     document.addEventListener('readystatechange', function () {
         if (document.readyState === 'complete') {
             insertStyle();
+            console.log('I AM go');
             doInject();
         }
     })

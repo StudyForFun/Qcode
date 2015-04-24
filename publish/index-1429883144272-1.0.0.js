@@ -1,2 +1,0 @@
-/*! Qcode 24-04-2015 */
-function insertStyle(){var a=document.createElement("style"),b=document.body.firstElementChild;document.body.insertBefore(a,b),a.innerHTML=getBaseCss()}function getBaseCss(){return".hello{color:#333}"}function doInject(){getAdress()}function indexTpl(){return'<div id="hello" class="hello">Hello</div>'}function getAdress(){var a=document.getElementsByTagName("a");console.log(a)}!function(){document.addEventListener("readystatechange",function(){"complete"===document.readyState&&(insertStyle(),doInject())})}();
