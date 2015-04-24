@@ -23,9 +23,6 @@ function getBaseCss() {
 
 function doInject() {
     getAdress();
-    //console.log('hello');
-    //var str = indexTpl();
-    //document.body.appendChild(str);
 }
 
 function indexTpl() {
