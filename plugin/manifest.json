@@ -7,7 +7,7 @@
         "scripts": ["background.js"]
     },
     "browser_action": {
-        "default_icon": "tianmao.png",
+        "default_icon": "qcode.png",
         "default_title": "Do action",
         "default_popup": "popup.html"
     },

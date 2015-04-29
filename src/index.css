@@ -1,3 +1,24 @@
 .hello{
     color: #333;
 }
+
+.qcwrap{
+    width: 20px;
+    height: 20px;
+    background: palevioletred;
+    z-index: 600;
+    position: relative;
+}
+
+.qcwrap>img{
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.fly{
+    position: absolute;
+    top: 5px;
+    z-index: 600;
+}
