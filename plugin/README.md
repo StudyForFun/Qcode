@@ -12,7 +12,7 @@
 1. clone你的项目（以下为示例）
 
     ```shell
-    git clone git@git.ucweb.local:gouwu/gw_inject.git
+    git clone git@xxxx
     ```
 
 ### 启动项目
